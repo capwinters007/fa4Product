@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.infosys.product.ProductApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.828 s - in com.infosys.product.ProductApplicationTests
