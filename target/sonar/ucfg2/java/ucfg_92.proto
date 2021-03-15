@@ -1,0 +1,79 @@
+
+öcom.infosys.product.model.SubscribedProductModel#toModel(Lcom/infosys/product/entity/SubscribedProduct;)Lcom/infosys/product/model/SubscribedProductModel;n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaL& L(-"1*∞
+1n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaN( N(D›⁄
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaN, N(B6
+%00com.infosys.product.model.SubscribedProductModel"0com.infosys.product.model.SubscribedProductModelÔ
+Ï
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaN( N(D
+%1":com.infosys.product.model.SubscribedProductModel#<init>()V*8
+6
+%00com.infosys.product.model.SubscribedProductModel˜
+Ù
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaN N(EB
+subscribeModel0com.infosys.product.model.SubscribedProductModel"__id*8
+6
+%00com.infosys.product.model.SubscribedProductModelõò
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaP P(.
+%2java.lang.Long"Gcom.infosys.product.entity.SubscribedProduct#getSubId()Ljava/lang/Long;*;
+9
+	subscribe,com.infosys.product.entity.SubscribedProduct2
+getSubId()«ƒ
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaP P(/
+
+%3void"Lcom.infosys.product.model.SubscribedProductModel#setSubId(Ljava/lang/Long;)V*D
+B
+subscribeModel0com.infosys.product.model.SubscribedProductModel*
+
+%2java.lang.Long2setSubId(Ljava/lang/Long;)üú
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaQ Q(2
+%4java.lang.Long"Icom.infosys.product.entity.SubscribedProduct#getBuyerId()Ljava/lang/Long;*;
+9
+	subscribe,com.infosys.product.entity.SubscribedProduct2getBuyerId()À»
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaQ Q(3
+
+%5void"Ncom.infosys.product.model.SubscribedProductModel#setBuyerId(Ljava/lang/Long;)V*D
+B
+subscribeModel0com.infosys.product.model.SubscribedProductModel*
+
+%4java.lang.Long2setBuyerId(Ljava/lang/Long;)ùö
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaR R(0
+%6java.lang.Long"Hcom.infosys.product.entity.SubscribedProduct#getProdId()Ljava/lang/Long;*;
+9
+	subscribe,com.infosys.product.entity.SubscribedProduct2getProdId()…∆
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaR R(1
+
+%7void"Mcom.infosys.product.model.SubscribedProductModel#setProdId(Ljava/lang/Long;)V*D
+B
+subscribeModel0com.infosys.product.model.SubscribedProductModel*
+
+%6java.lang.Long2setProdId(Ljava/lang/Long;)°û
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaS S(4
+%8java.lang.Long"Jcom.infosys.product.entity.SubscribedProduct#getQuantity()Ljava/lang/Long;*;
+9
+	subscribe,com.infosys.product.entity.SubscribedProduct2getQuantity()Õ 
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaS S(5
+
+%9void"Ocom.infosys.product.model.SubscribedProductModel#setQuantity(Ljava/lang/Long;)V*D
+B
+subscribeModel0com.infosys.product.model.SubscribedProductModel*
+
+%8java.lang.Long2setQuantity(Ljava/lang/Long;)"∂
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.javaU U(D
+B
+subscribeModel0com.infosys.product.model.SubscribedProductModel:9
+	subscribe,com.infosys.product.entity.SubscribedProductB4"2
+0com.infosys.product.model.SubscribedProductModel

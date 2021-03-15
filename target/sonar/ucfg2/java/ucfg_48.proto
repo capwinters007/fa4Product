@@ -1,0 +1,246 @@
+
+Ccom.infosys.product.model.ProductModel#toString()Ljava/lang/String;f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java– –("1*÷3
+1f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(#Â
+¿
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—& —(/
+%0java.lang.Long"__id*9*7(
+&com.infosys.product.model.ProductModel"
+	productIdÃ
+À
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(/
+%1java.lang.String"__concat*
+ProductModel [productId=*
+
+%0java.lang.Longµ
+²
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(<
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+, brand=À
+½
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—? —(D
+%3java.lang.String"__id*5*3(
+&com.infosys.product.model.ProductModel"
+brandÁ
+¾
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(D
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String¸
+µ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(T
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, category=Ã
+À
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—W —(_
+%6java.lang.String"__id*8*6(
+&com.infosys.product.model.ProductModel"
+
+categoryÁ
+¾
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(_
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String»
+¸
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(r
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, description=Ç
+Ä
+g
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—u —(€
+%9java.lang.String"__id*;*9(
+&com.infosys.product.model.ProductModel"
+descriptionÃ
+À
+g
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(€
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.String¸
+µ
+g
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 —(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+
+, image=Á
+¾
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java˜ ˜(
+%12java.lang.String"__id*5*3(
+&com.infosys.product.model.ProductModel"
+imageÄ
+Á
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.lang.String·
+´
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+
+, price=À
+½
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java˜ ˜( 
+%15java.lang.Float"__id*5*3(
+&com.infosys.product.model.ProductModel"
+priceÃ
+À
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜( 
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15java.lang.Float½
+º
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(3
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+, productName=Ç
+Ä
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java˜6 ˜(A
+%18java.lang.String"__id*;*9(
+&com.infosys.product.model.ProductModel"
+productNameÄ
+Á
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(A
+%19java.lang.String"__concat*
+
+%17java.lang.String*
+
+%18java.lang.String¸
+µ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(O
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+	, rating=À
+½
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java˜R ˜(X
+%21java.lang.Long"__id*6*4(
+&com.infosys.product.model.ProductModel"
+ratingÂ
+¿
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(X
+%22java.lang.String"__concat*
+
+%20java.lang.String*
+
+%21java.lang.Longº
+·
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ˜(h
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+, sellerId=Â
+¿
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java™ ™(
+%24java.lang.Long"__id*8*6(
+&com.infosys.product.model.ProductModel"
+
+sellerIdÂ
+¿
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(
+%25java.lang.String"__concat*
+
+%23java.lang.String*
+
+%24java.lang.Long·
+´
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(
+%26java.lang.String"__concat*
+
+%25java.lang.String*
+
+, stock=¿
+¼
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java™ ™(#
+%27java.lang.Long"__id*5*3(
+&com.infosys.product.model.ProductModel"
+stockÂ
+¿
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(#
+%28java.lang.String"__concat*
+
+%26java.lang.String*
+
+%27java.lang.Long½
+º
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(6
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+, subCategory=Ç
+Ä
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java™7 ™(B
+%30java.lang.String"__id*;*9(
+&com.infosys.product.model.ProductModel"
+subCategoryÄ
+Á
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(B
+%31java.lang.String"__concat*
+
+%29java.lang.String*
+
+%30java.lang.String°
+­
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java—	 ™(G
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+]"ƒ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java— ™(H
+
+%32java.lang.StringB*(
+&com.infosys.product.model.ProductModel

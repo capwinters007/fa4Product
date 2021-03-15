@@ -1,0 +1,166 @@
+
+|com.infosys.product.model.ProductModel#toModel(Lcom/infosys/product/entity/Product;)Lcom/infosys/product/model/ProductModel;f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.javaû û(#"1*¥8
+1f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java† †(.¡æ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java†  †(,,
+%0&com.infosys.product.model.ProductModel"&com.infosys.product.model.ProductModel”
+–
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java† †(.
+%1"0com.infosys.product.model.ProductModel#<init>()V*.
+,
+%0&com.infosys.product.model.ProductModelŸ
+÷
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java† †(/6
+productModel&com.infosys.product.model.ProductModel"__id*.
+,
+%0&com.infosys.product.model.ProductModelÖÇ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¢ ¢(2
+%2java.lang.Long"Acom.infosys.product.entity.Product#getProductId()Ljava/lang/Long;*/
+-
+product"com.infosys.product.entity.Product2getProductId()±Æ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¢ ¢(3
+
+%3void"Fcom.infosys.product.model.ProductModel#setProductId(Ljava/lang/Long;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%2java.lang.Long2setProductId(Ljava/lang/Long;)çä
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java£ £(6
+%4java.lang.String"Ecom.infosys.product.entity.Product#getProductName()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2getProductName()ª∏
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java£ £(7
+
+%5void"Jcom.infosys.product.model.ProductModel#setProductName(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%4java.lang.String2"setProductName(Ljava/lang/String;)Å˛
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java§ §(*
+%6java.lang.String"?com.infosys.product.entity.Product#getBrand()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2
+getBrand()Ø¨
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java§ §(+
+
+%7void"Dcom.infosys.product.model.ProductModel#setBrand(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%6java.lang.String2setBrand(Ljava/lang/String;)áÑ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java• •(0
+%8java.lang.String"Bcom.infosys.product.entity.Product#getCategory()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2getCategory()µ≤
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java• •(1
+
+%9void"Gcom.infosys.product.model.ProductModel#setCategory(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%8java.lang.String2setCategory(Ljava/lang/String;)éã
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¶ ¶(6
+%10java.lang.String"Ecom.infosys.product.entity.Product#getDescription()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2getDescription()Ω∫
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¶ ¶(7
+%11void"Jcom.infosys.product.model.ProductModel#setDescription(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%10java.lang.String2"setDescription(Ljava/lang/String;)Çˇ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.javaß ß(*
+%12java.lang.String"?com.infosys.product.entity.Product#getImage()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2
+getImage()±Æ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.javaß ß(+
+%13void"Dcom.infosys.product.model.ProductModel#setImage(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%12java.lang.String2setImage(Ljava/lang/String;)Ä˝
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java® ®(*
+%14java.lang.Float">com.infosys.product.entity.Product#getPrice()Ljava/lang/Float;*/
+-
+product"com.infosys.product.entity.Product2
+getPrice()Æ´
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java® ®(+
+%15void"Ccom.infosys.product.model.ProductModel#setPrice(Ljava/lang/Float;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%14java.lang.Float2setPrice(Ljava/lang/Float;)Ä˝
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java© ©(,
+%16java.lang.Long">com.infosys.product.entity.Product#getRating()Ljava/lang/Long;*/
+-
+product"com.infosys.product.entity.Product2getRating()≠™
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java© ©(-
+%17void"Ccom.infosys.product.model.ProductModel#setRating(Ljava/lang/Long;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%16java.lang.Long2setRating(Ljava/lang/Long;)ÑÅ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java™ ™(0
+%18java.lang.Long"@com.infosys.product.entity.Product#getSellerId()Ljava/lang/Long;*/
+-
+product"com.infosys.product.entity.Product2getSellerId()±Æ
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java™ ™(1
+%19void"Ecom.infosys.product.model.ProductModel#setSellerId(Ljava/lang/Long;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%18java.lang.Long2setSellerId(Ljava/lang/Long;)˛˚
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java´ ´(*
+%20java.lang.Long"=com.infosys.product.entity.Product#getStock()Ljava/lang/Long;*/
+-
+product"com.infosys.product.entity.Product2
+getStock()´®
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java´ ´(+
+%21void"Bcom.infosys.product.model.ProductModel#setStock(Ljava/lang/Long;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%20java.lang.Long2setStock(Ljava/lang/Long;)éã
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¨ ¨(6
+%22java.lang.String"Ecom.infosys.product.entity.Product#getSubCategory()Ljava/lang/String;*/
+-
+product"com.infosys.product.entity.Product2getSubCategory()Ω∫
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.java¨ ¨(7
+%23void"Jcom.infosys.product.model.ProductModel#setSubCategory(Ljava/lang/String;)V*8
+6
+productModel&com.infosys.product.model.ProductModel*
+
+%22java.lang.String2"setSubCategory(Ljava/lang/String;)"¢
+f
+ZC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/ProductModel.javaÆ Æ(8
+6
+productModel&com.infosys.product.model.ProductModel:-
+product"com.infosys.product.entity.ProductB*"(
+&com.infosys.product.model.ProductModel
