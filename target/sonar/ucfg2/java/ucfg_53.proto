@@ -1,70 +1,0 @@
-
-êcom.infosys.product.controller.SubscribedProductController#addSubscription(Lcom/infosys/product/model/SubscribedProductModel;)Ljava/lang/String;x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java ("3*Ú
-2x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java" "(ê
-ç
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java" "(;
-%55com.infosys.product.service.ISubscribedProductService"__id*N*L<
-:com.infosys.product.controller.SubscribedProductController"
-
-subProductƒ¡
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java" "((
-
-%6void"tcom.infosys.product.service.ISubscribedProductService#subscribe(Lcom/infosys/product/model/SubscribedProductModel;)V*=
-;
-%55com.infosys.product.service.ISubscribedProductService*E
-C
-subProductModel0com.infosys.product.model.SubscribedProductModel2=subscribe(Lcom/infosys/product/model/SubscribedProductModel;)"ò
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java# #(%
-Subscribbed Successfully*˜
-3x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java (*›⁄
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java ((1
-%0+org.springframework.web.client.RestTemplate"+org.springframework.web.client.RestTemplateÔ
-Ï
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java (*
-%1"5org.springframework.web.client.RestTemplate#<init>()V*3
-1
-%0+org.springframework.web.client.RestTemplate∑¥
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java -  (I
-%2java.lang.Long"Mcom.infosys.product.model.SubscribedProductModel#getBuyerId()Ljava/lang/Long;*E
-C
-subProductModel0com.infosys.product.model.SubscribedProductModel2getBuyerId()„
-‡
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java   (I
-%3java.lang.String"__concat**(
-&http://localhost:8000/buyer/privilege/*
-
-%2java.lang.Long∏µ
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java  (Y
-%4java.lang.Boolean"Çorg.springframework.web.client.RestTemplate#getForObject(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*3
-1
-%0+org.springframework.web.client.RestTemplate*
-
-%3java.lang.String*
-""2DgetForObject(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;)¬
-ø
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java  (Z"
-isPriviledgedjava.lang.Boolean"__id*
-
-%4java.lang.Boolean*
-2
-1*ò
-1x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java&
- &($"ò
-x
-nC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/SubscribedProductController.java& &(%
-Not a priviledged user!!:C
-subProductModel0com.infosys.product.model.SubscribedProductModelB><
-:com.infosys.product.controller.SubscribedProductController

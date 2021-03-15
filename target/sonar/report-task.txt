@@ -1,7 +1,0 @@
-organization=vishalprakharan
-projectKey=com.infosys:product
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.18187
-dashboardUrl=https://sonarcloud.io/dashboard?id=com.infosys%3Aproduct
-ceTaskId=AXg1SHpzZ9lPNJUzbU1L
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXg1SHpzZ9lPNJUzbU1L

@@ -1,17 +1,0 @@
-
-@com.infosys.product.entity.Product#getSellerId()Ljava/lang/Long;`
-VC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/entity/Product.javao o("1*›
-1`
-VC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/entity/Product.javap	 p(·
-´
-`
-VC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/entity/Product.javap	 p(
-%0java.lang.Long"__id*4*2$
-"com.infosys.product.entity.Product"
-
-sellerId"z
-`
-VC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/entity/Product.javap p(
-
-%0java.lang.LongB&$
-"com.infosys.product.entity.Product
