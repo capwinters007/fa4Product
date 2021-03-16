@@ -1,0 +1,16 @@
+com\infosys\product\entity\SubscribedProduct.class
+com\infosys\product\model\ProductModel.class
+com\infosys\product\service\ProductService.class
+com\infosys\product\entity\Product.class
+com\infosys\product\ProductApplication.class
+com\infosys\product\exceptions\SubscribbedException.class
+com\infosys\product\validator\ProductValidator.class
+com\infosys\product\model\SubscribedProductModel.class
+com\infosys\product\service\ISubscribedProductService.class
+com\infosys\product\repository\IProductRepository.class
+com\infosys\product\controller\SubscribedProductController.class
+com\infosys\product\service\IProductService.class
+com\infosys\product\exceptions\ProductException.class
+com\infosys\product\repository\ISubscribedProductRepository.class
+com\infosys\product\controller\ProductController.class
+com\infosys\product\service\SubscribedProductService.class
