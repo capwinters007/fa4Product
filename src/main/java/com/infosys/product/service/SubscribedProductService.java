@@ -1,5 +1,7 @@
 package com.infosys.product.service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -44,6 +46,21 @@ public class SubscribedProductService implements ISubscribedProductService {
 		
 		log.info("Deleted");
 		
+		
+	}
+	
+	public List<SubscribedProductModel> viewSubsciptions(Long buyerId) throws SubscribbedException{
+		
+		List<SubscribedProduct>list=subscribeRepo.findAllByBuyerId(buyerId);
+		
+		if(!list.isEmpty()) {
+			List<SubscribedProductModel>list2=new ArrayList<>();
+			
+			for(SubscribedProduct subProduct:list)
+				list2.add(SubscribedProductModel.toModel(subProduct));
+			return list2;
+		}
+		else throw new SubscribbedException("No Subscription exists!!");
 		
 	}
 

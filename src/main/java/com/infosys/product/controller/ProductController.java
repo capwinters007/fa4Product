@@ -118,5 +118,17 @@ public class ProductController {
 		}
 	}
 	
+	@GetMapping(value="/view/sellerId/{sellerId}")
+	public ResponseEntity<List<ProductModel>> viewBySeller(@PathVariable Long sellerId){
+		
+		try {
+			return new ResponseEntity<>(productService.viewBySellerId(sellerId),HttpStatus.OK);
+		}
+		catch(Exception e) {
+			log.error(e.getMessage());
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, e.getMessage(), e);
+		}
+	}
+	
 }
 

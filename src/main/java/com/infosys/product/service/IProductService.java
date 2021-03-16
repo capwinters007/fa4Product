@@ -14,5 +14,6 @@ public interface IProductService {
 	public List<ProductModel> getByCategory(String category) throws ProductException;
 	public void updateStock(Long id,Long stock) throws ProductException;
 	public void removeStock(Long id) throws ProductException;
+	public List<ProductModel> viewBySellerId(Long sellerId) throws ProductException;
 
 }

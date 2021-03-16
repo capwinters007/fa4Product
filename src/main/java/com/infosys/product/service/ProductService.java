@@ -148,5 +148,18 @@ public class ProductService implements IProductService{
 		else
 			throw new ProductException("No record found matching ID: "+id);
 	}
+	
+	public List<ProductModel> viewBySellerId(Long sellerId) throws ProductException{
+		
+		List<Product>list=productRepo.findAllBySellerId(sellerId);
+		if(!list.isEmpty()) {
+			List<ProductModel>list2=new ArrayList<>();
+			for(Product prod:list)
+				list2.add(ProductModel.toModel(prod));
+			
+			return list2;
+		}
+		else throw new ProductException("No products for this seller exists!!");
+	}
 
 }
