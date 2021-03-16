@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.infosys.product.ProductServiceTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.935 s - in com.infosys.product.ProductServiceTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.14 s - in com.infosys.product.ProductServiceTest

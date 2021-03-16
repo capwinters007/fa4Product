@@ -1,0 +1,52 @@
+
+‡com.infosys.product.controller.ProductController#updateStock(Ljava/lang/Long;Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaS S(*"8*—
+6n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW W(D"¡
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW W(D/
+-
+%3'org.springframework.http.ResponseEntity*Ì
+7n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW% W(4¬
+©
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW5 W(B)
+%2#org.springframework.http.HttpStatus"__id*
+""ËÈ
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW W($-
+%3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÔ
+Ñ
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaW
+ W(C
+%4"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%3'org.springframework.http.ResponseEntity*
+Stock Updated*+
+)
+%2#org.springframework.http.HttpStatus*
+6*é
+8n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaV V(ö
+ó
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaV V(1
+%0+com.infosys.product.service.IProductService"__id*H*F2
+0com.infosys.product.controller.ProductController"
+productServiceõò
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/controller/ProductController.javaV V(+
+
+%1void"Zcom.infosys.product.service.IProductService#updateStock(Ljava/lang/Long;Ljava/lang/Long;)V*3
+1
+%0+com.infosys.product.service.IProductService*
+
+idjava.lang.Long*
+
+quantityjava.lang.Long2-updateStock(Ljava/lang/Long;Ljava/lang/Long;)*
+7:
+idjava.lang.Long:
+quantityjava.lang.LongB42
+0com.infosys.product.controller.ProductController

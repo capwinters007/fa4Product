@@ -1,0 +1,154 @@
+
+scom.infosys.product.validator.ProductValidator#validate(Lcom/infosys/product/model/ProductModel;)Ljava/lang/String;l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java ("11*∂
+2l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ ($îë
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java% (<
+%8java.lang.String"Ccom.infosys.product.model.ProductModel#getImage()Ljava/lang/String;*8
+6
+productModel&com.infosys.product.model.ProductModel2
+getImage()À
+»
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (<
+%9java.lang.String"__concat*
+Invalid image extension *
+
+%8java.lang.String—
+Œ
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (\
+%10java.lang.String"__concat*
+
+%9java.lang.String*!
+!! Should be in .png or .jpg."â
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (]
+
+%10java.lang.String*õ
+3l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (îë
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (
+%6java.lang.String"Ccom.infosys.product.model.ProductModel#getImage()Ljava/lang/String;*8
+6
+productModel&com.infosys.product.model.ProductModel2
+getImage()àÖ
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (1
+%7boolean"-java.lang.String#matches(Ljava/lang/String;)Z*
+
+%6java.lang.String* 
+
+
+imageRegexjava.lang.String2matches(Ljava/lang/String;)*
+2
+1*û
+4l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (B"™
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (C:8
+6Invalid Stock!! Should be greater than or equal to 10.*å
+5l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (êç
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (
+%5java.lang.Long"Acom.infosys.product.model.ProductModel#getStock()Ljava/lang/Long;*8
+6
+productModel&com.infosys.product.model.ProductModel2
+getStock()*
+3
+4*ü
+6l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (C"´
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (D;9
+7Invalid price!! Should be greater than or equal to 200.*é
+7l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (íè
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (
+%4java.lang.Float"Bcom.infosys.product.model.ProductModel#getPrice()Ljava/lang/Float;*8
+6
+productModel&com.infosys.product.model.ProductModel2
+getPrice()*
+5
+6*•
+8l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (I"±
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (JA?
+=Invalid Description!! Should not be more than 500 characters.*¶
+9l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (†ù
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (#
+%2java.lang.String"Icom.infosys.product.model.ProductModel#getDescription()Ljava/lang/String;*8
+6
+productModel&com.infosys.product.model.ProductModel2getDescription()áÑ
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (6
+%3boolean"-java.lang.String#matches(Ljava/lang/String;)Z*
+
+%2java.lang.String*
+
+	descRegexjava.lang.String2matches(Ljava/lang/String;)*
+7
+8*∆
+10l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ (i"—
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (ja_
+]Invalid product name!! Should have only characters, apostrophe sign and spaces between words.*∆	
+11l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ 
+(=ƒ
+¡
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java
+ 
+(>
+	nameRegexjava.lang.String"__id*,*
+(([A-za-z\\']+([\\s][A-Za-z\\'])*){1,100}§
+°
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (
+	descRegexjava.lang.String"__id*
+
+.{1,500}≠
+™
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java ('
+
+imageRegexjava.lang.String"__id*
+.*(png\"|jpeg\")†ù
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (#
+%0java.lang.String"Icom.infosys.product.model.ProductModel#getProductName()Ljava/lang/String;*8
+6
+productModel&com.infosys.product.model.ProductModel2getProductName()áÑ
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (6
+%1boolean"-java.lang.String#matches(Ljava/lang/String;)Z*
+
+%0java.lang.String*
+
+	nameRegexjava.lang.String2matches(Ljava/lang/String;)*
+9
+10*Ï
+1l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java	 ("y
+l
+bC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/validator/ProductValidator.java (	
+valid:6
+productModel&com.infosys.product.model.ProductModelB2"0
+.com.infosys.product.validator.ProductValidator

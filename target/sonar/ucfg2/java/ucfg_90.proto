@@ -1,0 +1,95 @@
+
+Mcom.infosys.product.model.SubscribedProductModel#toString()Ljava/lang/String;n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java9 9("1*‡
+1n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :()Ð
+Í
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:, :(1
+%0java.lang.Long"__id*?*=2
+0com.infosys.product.model.SubscribedProductModel"
+subIdÑ
+Î
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(1
+%1java.lang.String"__concat*" 
+SubscribedProductModel [subId=*
+
+%0java.lang.Long¿
+¼
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(@
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+, buyerId=Ò
+Ï
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:C :(J
+%3java.lang.Long"__id*A*?2
+0com.infosys.product.model.SubscribedProductModel"	
+buyerIdÇ
+Ä
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(J
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Long¾
+»
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(X
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+	, prodId=Ñ
+Î
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:[ :(a
+%6java.lang.Long"__id*@*>2
+0com.infosys.product.model.SubscribedProductModel"
+prodIdÇ
+Ä
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(a
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.LongÀ
+½
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 :(q
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, quantity=Ó
+Ð
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java; ;(
+%9java.lang.Long"__id*B*@2
+0com.infosys.product.model.SubscribedProductModel"
+
+quantityÈ
+Å
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 ;(
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.Long¸
+µ
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java:	 ;(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+]"‹
+n
+dC:/Workspace/FA4 project/product/src/main/java/com/infosys/product/model/SubscribedProductModel.java: ;(
+
+%11java.lang.StringB42
+0com.infosys.product.model.SubscribedProductModel
