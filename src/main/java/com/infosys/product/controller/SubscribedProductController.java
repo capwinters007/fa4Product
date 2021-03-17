@@ -36,13 +36,21 @@ public class SubscribedProductController {
 	@PostMapping(value="/add")
 	public String addSubscription(@RequestBody SubscribedProductModel subProductModel) {
 				
-		Boolean isPriviledged=new RestTemplate().getForObject(buyerURI+subProductModel.getBuyerId(), Boolean.class);
-		if(isPriviledged) {
-			subProduct.subscribe(subProductModel);
-			return "Subscribbed Successfully";
+		String message;
+		try {
+		 message=new RestTemplate().getForObject(buyerURI+subProductModel.getBuyerId(), String.class);
+			if(message.equals("Buyer with id {} is now a privileged buyer"+subProductModel.getBuyerId())) {
+				subProduct.subscribe(subProductModel);
+				message="Subscribed Successfully";
+			}
 		}
-		else
-			return "Not a priviledged user!!";
+		catch(Exception e) {
+			log.error(e.getMessage());
+			message= "Not a Privileged user!!";
+		}
+		
+		return message;
+	
 	}
 	
 	@DeleteMapping(value="/remove/{id}")
